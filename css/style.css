@@ -1,0 +1,75 @@
+body {
+    color: white;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background: url("../images/background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.header {
+    padding-top: 46px;
+    margin-bottom: 240px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo {
+    margin-right: 34px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li a {
+    color: white;
+    font-size: 24px;
+}
+
+.nav ul li+li {
+    margin-left: 25px;
+}
+
+.slider h2 {
+    font-size: 120px;
+}
+
+.slider p {
+    max-width: 674px;
+    font-size: 36px;
+    margin-bottom: 46px;
+}
+
+ul.slick-dots {
+    display: flex;
+}
+
+ul.slick-dots li {
+    margin-right: 20px;
+}
+
+ul.slick-dots button {
+    font-size: 0;
+    cursor: pointer;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
